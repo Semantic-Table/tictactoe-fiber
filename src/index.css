@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100dvw;
+  height: 100dvh;
+  
+  background-color: rgb(24, 23, 17);
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}

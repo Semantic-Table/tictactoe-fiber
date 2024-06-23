@@ -1,14 +1,24 @@
+/* 
+colors
+  orange : #EEAE62
+  lighblue : #5E9DDC
+  darkblue : #4072B5 
+  circle : #D2604F
+  cross : #E2DED1
+  line :#E7856D 
+*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
   width: 100dvw;
   height: 100dvh;
-  
-  background-color: rgb(24, 23, 17);
+  background-color: #5E9DDC;
 }
 
 #root {

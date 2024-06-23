@@ -32,11 +32,12 @@ function App() {
     <>
       <UI player={player} winner={winner} reset={reset} />
       <Canvas camera={{ position: new Vector3(0, 5, 0) }}>
-        <EffectComposer>
-          <Bloom luminanceThreshold={-8} luminanceSmoothing={0} intensity={3}  />
-        </EffectComposer>
+        {/* <EffectComposer>
+          <Bloom luminanceThreshold={1} luminanceSmoothing={0} intensity={3}  />
+        </EffectComposer> */}
         <OrbitControls />
-        <ambientLight />
+        <ambientLight intensity={1} />
+        <pointLight position={[1, 1.5, 0]} intensity={4} />
         <Game player={player} winner={winner} setPlayer={setPlayer} setWinner={setWinner} board={board} setBoard={setBoard} />
       </Canvas>
     </>

@@ -5,7 +5,6 @@ import { Vector3 } from 'three'
 import './App.css'
 import Game from './Game'
 import UI from './UI'
-import { Bloom, EffectComposer } from '@react-three/postprocessing'
 
 function App() {
 
